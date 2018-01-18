@@ -1,0 +1,30 @@
+{
+	"name": "ChanBenh",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"react": "16.0.0-alpha.6",
+		"react-native": "0.43.4",
+		"react-native-animated-bar": "^0.2.0",
+		"react-native-button-component": "^0.1.25",
+		"react-native-nav": "^1.2.0",
+		"react-native-progress": "^3.4.0",
+		"react-native-sqlite-storage": "^3.3.4",
+		"react-native-tag-autocomplete": "^1.0.19",
+		"react-native-vector-icons": "^4.4.3",
+		"react-token-autocomplete": "^0.5.3"
+	},
+	"devDependencies": {
+		"babel-jest": "22.0.4",
+		"babel-preset-react-native": "4.0.0",
+		"jest": "22.0.4",
+		"react-test-renderer": "16.0.0-alpha.6"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
