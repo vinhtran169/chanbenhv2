@@ -18,7 +18,6 @@ import {
 import Icon from 'react-native-vector-icons/Ionicons';
 import EvilIcons from 'react-native-vector-icons/EvilIcons';
 import NavBar, { NavGroup, NavButton, NavButtonText, NavTitle } from 'react-native-nav';
-
 import Globals from './globals';
 import TraCuu from './MyComponents/TraCuu';
 import MeoVat from './MyComponents/MeoVat';
@@ -43,7 +42,6 @@ class Home extends Component {
       name: screenName,
     });
   }
-
 
   render() {
     return (
